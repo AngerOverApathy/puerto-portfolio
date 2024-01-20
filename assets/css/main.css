@@ -72,6 +72,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+.small-text {
+	font-size: 0.8em;
+}
+
 /* Basic */
 
 	html {
@@ -121,7 +125,6 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #777;
 		font-weight: 700;
 	}
 
@@ -1759,7 +1762,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #aaa;
+		color: #f5e6e6;
 		position: relative;
 		margin: 0 0 1.6875em 0;
 	}
@@ -2050,7 +2053,7 @@ input, select, textarea {
 
 	.image {
 		border-radius: 5px;
-		border: 0;
+		border: 1px solid rgb(236, 134, 202);
 		display: inline-block;
 		position: relative;
 	}
@@ -2701,7 +2704,7 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background: #5788e3;
-		color: #d2f2e9;
+		color: #e0eef7;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2751,7 +2754,7 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: #d2f2e9;
+				color:  #f1f2f8;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2772,7 +2775,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #b7eadc;
+					color: #bcc4e4;
 				}
 
 		#header > nav {
@@ -2789,7 +2792,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+					border-top: solid 2px #bcc4e4;
 					display: block;
 					padding: 0;
 				}
@@ -2836,12 +2839,16 @@ input, select, textarea {
 			border-top: 0;
 		}
 
+		.contact-text {
+			font-size: 1.8rem;;
+		}
+
 /* Footer */
 
 	#footer {
 		background: #fafafa;
 		border-top: 0;
-		color: #c0c0c0;
+		color: #e3e4e9;
 		overflow: hidden;
 		padding: 4em 0 2em 0;
 	}
