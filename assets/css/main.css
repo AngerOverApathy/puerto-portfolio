@@ -114,7 +114,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: solid 1px #e4e4e4;
+		/* border-bottom: solid 1px #e4e4e4; */
 		color: inherit;
 		text-decoration: none;
 	}
@@ -2053,7 +2053,7 @@ input, select, textarea {
 
 	.image {
 		border-radius: 5px;
-		border: 1px solid rgb(169, 155, 230);
+		/* border: 1px solid rgb(169, 155, 230); */
 		display: inline-block;
 		position: relative;
 	}
