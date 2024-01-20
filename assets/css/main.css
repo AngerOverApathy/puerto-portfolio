@@ -1709,6 +1709,16 @@ input, select, textarea {
 
 /* Container */
 
+	.contact-container {
+		text-align: center;
+		margin: 0 auto;
+		max-width: calc(100% - 4.5em);
+		width: 45em;
+		columns: 2; /* This will create two columns */
+		column-gap: 20px; /* Adjust the gap between columns as needed */
+	}
+	
+
 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 4.5em);
@@ -2372,6 +2382,10 @@ input, select, textarea {
 							margin-left: -0.5rem;
 						}
 
+		}
+
+		.center-text, #four > h3 {
+			text-align: center;
 		}
 
 /* Feature Icons */
